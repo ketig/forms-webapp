@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="example.html" method="post">
+        <h1>Create a burger!</h1>
+        <h4>Our burgers are made with love.</h4>
+
+        <section>
+            <label for="username">User name: </label>
+            <input type="text" name="username" id="username">
+            <br>
+            <label for="password">Password: </label>
+            <input type="password" name="password" id="password">
+            <br>
+        </section>
+        <hr>
+        <section>
+            <label for="quantity">Please provide quantity:</label>
+            <input type="number" name="quantity" id="quantity" min="0" step="1">
+        </section>
+
+        <section>
+            <label for="doneness">How do you want your patty cooked?</label>
+            <br>
+            <span>Rare</span>
+            <input type="range" id="doneness" name="doneness"
+            min="0" max="5" step="1">
+            <span>Well-done</span>
+        </section>
+
+        <section>
+            <span>What toppings would you like?</span>
+            <br>
+
+            <label for="">Lettuce</label>
+            <label for="">Tomato</label>
+        </section>
+    </form>
+</body>
+</html>
