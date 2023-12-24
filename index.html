@@ -10,7 +10,7 @@
     <form action="example.html" method="post">
         <h1>Create a burger!</h1>
         <h4>Our burgers are made with love.</h4>
-
+        <hr>
         <section>
             <label for="username">User name: </label>
             <input type="text" name="username" id="username">
@@ -38,8 +38,39 @@
             <span>What toppings would you like?</span>
             <br>
 
-            <label for="">Lettuce</label>
-            <label for="">Tomato</label>
+            <label for="lettuce">Lettuce</label>
+            <input type="checkbox" id="lettuce" name="lettuce">
+            <label for="tomato">Tomato</label>
+            <input type="checkbox" id="tomato" name="tomato">
+        </section>
+
+        <section>
+            <span>Would you like to add cheese?</span>
+            <br>
+            <input type="radio" name="cheese" id="yes" value="yes">
+            <label for="yes">Yes</label>
+            <input type="radio" name="cheese" id="no" value="no">
+            <label for="no">No</label>
+        </section>
+
+        <section>
+            <label for="bun-type">What type of bun would you like?</label>
+
+            <select name="bun-type" id="bun-type">
+                <option value="sesame">Sesame</option>
+                <option value="potato">Potato</option>
+                <option value="classic">Classic</option>
+            </select>
+        </section>
+
+        <section>
+            <label for="comment">Anything else you want to add?</label>
+            <br>
+            <textarea name="comment" id="comment" cols="30" rows="3"></textarea>
+        </section>
+
+        <section>
+            <input type="submit" class="submit-btn">
         </section>
     </form>
 </body>

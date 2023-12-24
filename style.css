@@ -1,8 +1,33 @@
 body{
-    background-color: rgb(57, 169, 219);
+    background-color: rgb(23, 120, 165);
+    text-align: center;
 }
 
 form{
+    display: inline-block;
+    width: 90%;
     text-align: center;
     line-height: 30px;
+    background-color: rgb(178, 225, 247);
+    border-radius: 20px;
+}
+
+form hr{
+    width: 80%;
+}
+
+.submit-btn{
+    background-color: rgb(57, 169, 219);
+    color: rgb(255, 255, 255, 0.9);
+    width: 100px;
+    padding: 10px;
+    border-width: 0px;
+    border-radius: 30px;
+    margin: 20px;
+    line-height: 20px;
+    font-size: 17px;
+}
+
+section{
+    display: block;
 }
